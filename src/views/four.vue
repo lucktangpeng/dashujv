@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .home {
   height: 100vh;
   background: url('../assets/images/4.jpg');
