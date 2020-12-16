@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 5%;
+}
+.button2 {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 17%;
+}
+.button3 {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 27%;
+}
+.button4 {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 65%;
+}
+.button5 {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 75%;
+}
+.button6 {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 87%;
+}
