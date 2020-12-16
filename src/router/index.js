@@ -1,43 +1,43 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import home from ''
-// import home from '@/views/home.vue'
-// import home from '@/views/home.vue'
-// import home from '@/views/home.vue'
-// import home from '@/views/home.vue'
-// import home from '@/views/home.vue'
+import home from '@/views/home.vue'
+import two from '@/views/two.vue'
+import three from '@/views/three.vue'
+import four from '@/views/four.vue'
+import five from '@/views/five.vue'
+import six from '@/views/six.vue'
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import('../views/home.vue')
+    component: home
   },
   {
     path: '/2',
     name: 'home',
-    component: () => import('../views/two.vue')
+    component: two
   },
   {
     path: '/3',
     name: 'home',
-    component: () => import('../views/three.vue')
+    component: three
   },
   {
     path: '/4',
     name: 'home',
-    component: () => import('../views/four.vue')
+    component: four
   },
   {
     path: '/5',
     name: 'home',
-    component: () => import('../views/five.vue')
+    component: five
   },
   {
     path: '/6',
     name: 'home',
-    component: () => import('../views/six.vue')
+    component: six
   }
 ]
 
